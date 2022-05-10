@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.320d9ee6.css",
+    "main.js": "/static/js/main.3746ccde.js",
+    "static/media/Banner 1.jpg": "/static/media/Banner 1.8631d3b843564c55b3a3.jpg",
+    "static/media/Banner 2.jpg": "/static/media/Banner 2.a871c1d16f562ab8e06f.jpg",
+    "static/media/MobileLegends.png": "/static/media/MobileLegends.ebc6907de072ed0b06a5.png",
+    "static/media/Background.jpg": "/static/media/Background.9b3664efdd0bd05e7963.jpg",
+    "static/media/Valorant.png": "/static/media/Valorant.d07102dcfcbb07dcdfa5.png",
+    "static/media/SausageMan.png": "/static/media/SausageMan.20d0d107eb2ad96aa9b5.png",
+    "static/media/PubgMobile.png": "/static/media/PubgMobile.56bd1130c435bcbb48ef.png",
+    "static/media/PubgPC.png": "/static/media/PubgPC.56bd1130c435bcbb48ef.png",
+    "static/media/FreeFire.png": "/static/media/FreeFire.059c4829e5506c82f07e.png",
+    "static/media/fire.gif": "/static/media/fire.3ed7d9069e4e3b0a86e5.gif",
+    "static/media/hot-icon-1.gif": "/static/media/hot-icon-1.ced74a3e505d1480c662.gif",
+    "static/media/DragonRaja.png": "/static/media/DragonRaja.fcc22c7fcb1ef306a8e7.png",
+    "static/media/LeagueLegends.png": "/static/media/LeagueLegends.e32faf7bc0d01c7da406.png",
+    "static/media/GenshinImpact.png": "/static/media/GenshinImpact.953ffbe86b8a9ca246d1.png",
+    "static/media/PbZepetto.png": "/static/media/PbZepetto.9255e46be4d3935caf94.png",
+    "index.html": "/index.html",
+    "main.320d9ee6.css.map": "/static/css/main.320d9ee6.css.map",
+    "main.3746ccde.js.map": "/static/js/main.3746ccde.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.320d9ee6.css",
+    "static/js/main.3746ccde.js"
+  ]
+}
