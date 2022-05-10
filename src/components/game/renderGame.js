@@ -21,7 +21,7 @@ function RenderGame() {
               {/* {each.randomNumber > 85 ? <img className="fire-gif absolute top-0" src={fireGif} alt="loading.." /> : ""} */}
               <div className={`shape ${each.randomNumber <= 40 ? "red-progress" : each.randomNumber <= 70 ? "yellow-progress" : each.randomNumber <= 85 ? "blue-progress" : "green-progress"}`}>
                 <div className="inner">
-                  <div className={"number"}>{each.randomNumber}</div>
+                  <div className={"number"}>{each.randomNumber}%</div>
                 </div>
               </div>
             </div>
