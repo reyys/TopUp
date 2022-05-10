@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.320d9ee6.css",
-    "main.js": "/static/js/main.1979182b.js",
+    "main.css": "/static/css/main.b68611bf.css",
+    "main.js": "/static/js/main.968baded.js",
     "static/media/Banner 1.jpg": "/static/media/Banner 1.8631d3b843564c55b3a3.jpg",
     "static/media/Banner 2.jpg": "/static/media/Banner 2.a871c1d16f562ab8e06f.jpg",
     "static/media/MobileLegends.png": "/static/media/MobileLegends.ebc6907de072ed0b06a5.png",
@@ -18,11 +18,11 @@
     "static/media/GenshinImpact.png": "/static/media/GenshinImpact.953ffbe86b8a9ca246d1.png",
     "static/media/PbZepetto.png": "/static/media/PbZepetto.9255e46be4d3935caf94.png",
     "index.html": "/index.html",
-    "main.320d9ee6.css.map": "/static/css/main.320d9ee6.css.map",
-    "main.1979182b.js.map": "/static/js/main.1979182b.js.map"
+    "main.b68611bf.css.map": "/static/css/main.b68611bf.css.map",
+    "main.968baded.js.map": "/static/js/main.968baded.js.map"
   },
   "entrypoints": [
-    "static/css/main.320d9ee6.css",
-    "static/js/main.1979182b.js"
+    "static/css/main.b68611bf.css",
+    "static/js/main.968baded.js"
   ]
 }

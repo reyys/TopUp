@@ -42,31 +42,35 @@ function Nav() {
         <div className="cancel absolute right-2 text-3xl top-2">
           <ImCancelCircle onClick={changeValue} />
         </div>
-        <ul className="p-5 flex flex-col items-center justify-center">
+        <ul className="p-5 flex  text-sm  ml-12 flex-col items-center justify-center">
           <li className="mt-12">
             <HomeIcon className="max-w-[30px]" />
             <a href="/">Beranda</a>
           </li>
           <li className="mt-12">
             <IdentificationIcon className="max-w-[30px]" />
-            <a href="/">Tentang Kami</a>
+            <a href="#game">Tentang Kami</a>
           </li>
         </ul>
 
-        <div className="social p-4 text-2xl font-bold">
-          <h1>Social Media</h1>
-          <div className="flex mt-5 gap-[20px]">
-            <a href="https://facebook.com/" target="_blank" rel="noreferrer">
-              <BsFacebook className="text-2xl"></BsFacebook>
+        <div className="social p-2 text-sm font-bold">
+          <h1 className="text-md ml-3">Social Media</h1>
+          <div className="flex flex-col mt-5 gap-[20px]">
+            <a className="flex items-center" href="https://facebook.com/" target="_blank" rel="noreferrer">
+              <BsFacebook className="text-2xl" />
+              <span className="ml-3">Facebook</span>
             </a>
-            <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-              <BsTwitter className="text-2xl"></BsTwitter>
+            <a className="flex items-center" href="https://twitter.com/" target="_blank" rel="noreferrer">
+              <BsTwitter className="text-2xl" />
+              <span className="ml-3">Twitter</span>
             </a>
-            <a href="https://youtube.com/" target="_blank" rel="noreferrer">
-              <BsYoutube className="text-2xl"></BsYoutube>
+            <a className="flex items-center" href="https://youtube.com/" target="_blank" rel="noreferrer">
+              <BsYoutube className="text-2xl" />
+              <span className="ml-3">Youtube</span>
             </a>
-            <a href="https://twitch.com/" target="_blank" rel="noreferrer">
-              <BsTwitch className="text-2xl"></BsTwitch>
+            <a className="flex items-center" href="https://twitch.com/" target="_blank" rel="noreferrer">
+              <BsTwitch className="text-2xl" />
+              <span className="ml-3">Twitch</span>
             </a>
           </div>
         </div>
