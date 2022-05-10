@@ -1,13 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: url("./assets/Background.jpg");
+  height: 300vh;
+  width: full;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li {
+  display: flex;
+  align-items: center;
+  width: 170px;
+}
+
+a {
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+a:hover {
+  color: white;
+}
+
+.gameList {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(5, auto);
+  gap: 20px;
+  column-gap: 80px;
+}
+
+.outer-shape {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  border-radius: 5px;
+}
+.shape {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px;
+  background-color: green;
+  background: conic-gradient(red, orange, yellow, green, blue);
+  /* box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1p rgba(255, 255, 255, 0.7) x; */
+}
+
+.inner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  border-radius: 20px;
+}
+
+.title {
+  white-space: nowrap;
+}
+
+.red-progress {
+  background: conic-gradient(#ff4444 60deg, #f1eee9 300deg);
+}
+
+.yellow-progress {
+  background: conic-gradient(#ffbb33 140deg, #f1eee9 220deg);
+}
+
+.blue-progress {
+  background: conic-gradient(#4285f4 260deg, #f1eee9 120deg);
+}
+
+.green-progress {
+  background: conic-gradient(#00c851 340deg, #fff 20deg);
+}
+
+.menu-left {
+  position: absolute;
+  z-index: 999;
+  width: 50%;
+  height: 200vh;
+  background-color: #73777b;
+  left: 0;
+  top: 0;
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.to-right {
+  transform: translateX(0);
+}
+
+.hot-gif {
+  transform: translate(-30%, -35%);
+  width: 140px;
+}
+
+@media only screen and (min-width: 721px) and (max-width: 1240px) {
+  body {
+    height: 600vh;
+  }
+  .gameList {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+@media only screen and (min-width: 527px) and (max-width: 720px) {
+  body {
+    height: 600vh;
+  }
+  .gameList {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media only screen and (max-width: 526px) {
+  body {
+    height: 1000vh;
+  }
+  .gameList {
+    grid-template-columns: repeat(1, auto);
+    column-gap: 0;
+  }
 }

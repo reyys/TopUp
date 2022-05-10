@@ -1,17 +1,51 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './app.js'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
+
+ReactDOM.render(
     <App />
-  </React.StrictMode>
-);
+    ,
+    document.querySelector('#root')
+)
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+// let progressBar = document.querySelectorAll('.shape')
+// let valueContainer = document.querySelectorAll('.number')
+
+// console.log(progressBar)
+// valueContainer.forEach(each => {
+//     console.log(each.innerHTML)
+// })
+
+// let progressValue = 0
+// let progressEndValue1 = 35;
+// let progressEndValue2 = 55;
+// let progressEndValue3 = 70;
+// let progressEndValue4 = 100;
+// let speed = 50;
+
+// let progress = setInterval(() => {
+//     progressValue++;
+
+//     // valueContainer.forEach(mov => {
+//     //     mov.textContent = `${progressValue}`
+//     // })
+
+//     valueContainer.forEach(each => {
+//         progressBar.forEach(mov => {
+
+//             mov.style.background = `conic-gradient(
+//                         #4d5bf9 ${progressValue * 3.6}deg,
+//                         #F9D923 ${each.innerHTML * 3.6}deg
+//                     )`;
+//         })
+
+//     })
+
+
+//     if (progressValue === progressEndValue3) {
+//         clearInterval(progress)
+//     }
+
+// }, speed);
